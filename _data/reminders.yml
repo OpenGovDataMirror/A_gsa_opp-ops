@@ -1,0 +1,27 @@
+team_name: DigitalGov
+team_email: digitalgov@gsa.gov
+entries:
+  
+  - name: digitalgov.gov SITES Contract ends
+    due: 2018-01-31
+    days-out: 90
+
+  - name: digitalgov.gov security certs expires
+    due: 2017-12-23
+    days-out: 90
+
+  - name: Howto.gov Domain Renewal
+    due: 2018-06-12
+    days-out: 30
+
+  - name: Marion's Birthday
+    due: 2018-04-23
+    days-out: 30
+
+  - name: John's Detail to USWDS Ends
+    due: 2018-06-12
+    days-out: 30
+
+  - name: Jeremy's Birthday
+    due: 2018-11-23
+    days-out: 30

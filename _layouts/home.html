@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="header">
+  <h1>Ops Tracker</h1>
+</div>
+
+
+<script>
+  var remiders = {{ site.data.reminders | jsonify }};
+  console.log(remiders);
+</script>
+
+<p class="reminder-add">+ Add a reminder</p>
+
+<table>
+  <tr>
+    <th class="entry-name">Reminder</th>
+    <th class="entry-due">Due Date</th>
+    <th class="entry-days">:stopwatch:</th>
+  </tr>
+{% assign sorted = site.data.reminders.entries | sort:"due" %}
+{% for entry in site.data.reminders.entries %}
+  <tr>
+    <td class="entry-name">{{ entry.name }}</td>
+    <td class="entry-due">{{ entry.due | date: "%B %-d, %Y" }}</td>
+    <td class="entry-days">{{ entry.days-out }} days</td>
+  </tr>
+{% endfor %}
+</table>

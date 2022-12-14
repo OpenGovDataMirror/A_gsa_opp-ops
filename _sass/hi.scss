@@ -1,0 +1,94 @@
+main{
+  // width:600px;
+}
+
+.hidden{
+  display: none;
+}
+
+label{
+  span{
+    font-size: 14px;
+    font-style: italic;
+  }
+}
+
+pre{
+  padding: 20px;
+  background: #efefef;
+}
+
+.btn{
+  padding: 10px 15px;
+  background: blue;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+.entry{
+  padding: 15px 0;
+  border-top: 1px #ccc solid;
+  h5{
+    margin: 0 0 3px 0;
+    a{
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+    .date{
+      margin-left: 8px;
+      font-size: 12px;
+      color: #999;
+      font-weight: normal;
+      font-family: sans-serif;
+    }
+  }
+  p{
+    margin:0;
+  }
+  img{
+    margin-right: 10px;
+    float: left;
+  }
+  .block{
+    display: inline-block;
+  }
+
+}
+
+
+.reminder-add{
+  margin: 0;
+  padding: 7px 12px;
+  border: 2px #2D65FA solid;
+  color: #2D65FA;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 8px;
+}
+table{
+  // margin: 0;
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  .emoji{
+    height: 30px;
+    width: 30px;
+  }
+  th{
+    padding: 15px 0;
+    border:none;
+    font-weight: bold;
+  }
+  td{
+    padding: 15px 0;
+    border-right: none;
+    border-left: none;
+  }
+  .entry-days{
+    width: 90px;
+    text-align: center;
+  }
+}
